@@ -1,0 +1,52 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Manrope', 'Arial', sans-serif;
+    background: #F2F2F2;
+}
+h1, h2, h3 {
+    font-weight: 700;
+}
+a {
+    transition: 0.4s ease all;
+}
+.quantity__btn{
+    padding:15px 15px;
+    width: 120px;
+    height: 48px;
+    background: #F1F1F1;
+    display: block;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.add-card__btn{
+    display: block;
+    text-align: center;
+    padding:15px 30px;
+    height: 48px;
+    width: 160px;
+    background: #D87D4A;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.plus, .minus{
+    border:none;
+    padding:0 15px;
+}

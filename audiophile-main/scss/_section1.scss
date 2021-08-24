@@ -1,0 +1,100 @@
+.section1{
+    position: relative;
+    z-index: -1;
+    &__link{
+        text-decoration: none;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 25px;
+        color: #000000;
+        mix-blend-mode: normal;
+        opacity: 0.5;
+    }
+    padding-top: 79px;
+    &__contents{
+        display: flex;
+        padding-top: 56px;
+    }  
+    &__img{
+        max-width:540px;
+        height: 560px;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        background: #F1F1F1;
+        border-radius: 8px;
+    }
+    &__text{
+        max-width: 445px;
+        margin-left:125px ;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:flex-start;
+    }
+    &__sub-header{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 19px;
+        letter-spacing: 10px;
+        text-transform: uppercase;
+        color: #D87D4A;
+    }
+    &__header{
+        margin-top: 16px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 44px;
+        letter-spacing: 1.42857px;
+        text-transform: uppercase;
+        color: #000000;
+    }
+    &__paragraph{
+        margin-top: 32px;
+        font-family: Manrope;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 25px;
+        color: #000000;
+        mix-blend-mode: normal;
+        opacity: 0.5;
+    }
+    &__price{
+        margin-top: 32px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 25px;
+        letter-spacing: 1.28571px;
+        text-transform: uppercase;
+        color: #000000;
+    }
+    &__btns{
+        margin-top: 47px;
+        display: flex;
+    }
+    
+}
+@media screen and (max-width:768px){
+      .section1{
+          &__sub-header{
+              font-size: 12px;
+          }
+          &__header{
+              font-size: 28px;
+          }
+          &__paragraph{
+              font-size: 15px;
+          }
+          &__img{
+              max-width:281px;
+              height: 480px;
+          }
+      }
+
+     
+}

@@ -1,0 +1,36 @@
+.section5{
+    padding-top: 160px;
+    display:flex;
+    justify-content: space-between;
+    &__text{
+        max-width: 445px;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    &__header{
+        font-size: 40px;
+        line-height: 44px;
+        letter-spacing: 1.42857px;
+        text-transform: uppercase;
+        color: #000000;
+        font-weight: bolder;
+    }
+    &__p{
+        margin-top: 32px;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 25px;
+        color: #000000;
+        mix-blend-mode: normal;
+        opacity: 0.5;
+    }
+    &__img{
+        background: #F1F1F1;
+        border-radius: 8px;
+        overflow: hidden;
+    }
+}
+.bold__orange{
+    color: #D87D4A;;
+}
